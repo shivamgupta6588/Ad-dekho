@@ -13,68 +13,205 @@ body{
 
    ul {
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
     background-color:#F0F1F3;
     position: fixed;
     top: 0;
     height: 70px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
   }
   
   li {
     float: left;
+    align-items: center;
+      display: flex;
+      justify-content: center;
+      
   }
   
   li a {
+
     display: block;
-    color: white;
+    color: #595959;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    justify-content: center;
+    font-size: 13px;
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    color: #FCA311;
   }
   
-  .active {
-    background-color: #04AA6D;
-  }
 
 
 
 
   .form {
-      margin-left: 10px;
-      display: block;
       text-align: center;
-
-    padding: 6px 10px;
+      /* padding: 6px 10px; */
+      border: 1px solid #BBBBBB;
+      margin-left: 36px;
+      box-sizing: border-box;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 600px;
+      
     
      
   }
   img{
     padding: 14px 16px;
+ 
   }
 
-#searchbar {
-    width: 550px;
-    height: 40px;
-   
-    margin: 8px 0; 
-    box-sizing: border-box;
-    padding: 14px 16px;
+   #searchbar {
+    width: 90%;
+     /* padding: 14px 16px; */
+  
+     height:100%;
 
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+
+  }
+  select{
+      height: 100%;
+      border-radius: 0%;
+      background-color: #E0E0E0;
   }
   #btn-1{
-    height: 40px;
-    width: 51px;
-    background-color:#FEBD69;
+     height:100%;
+     width: 10%;
+     background-color:#FEBD69;
      color:  #595959;
- font-size: 19.54px;  
-      }
+     font-size: 19px;
+     }
+     .line
+     {
+
+        height: 15px;
+     }
+     .user{
+         width: 19px;
+         font-size: 19px;
+         color: #595959;
+         
+     }
 
 .abc{margin-top:50px;
 height: 1500px;}
+
+
+
+
+
+
+
+
+/* all for footer */
+.footer {
+    background-color: #233A6C;
+    color: white;
+    line-height: 21px;
+}
+
+.top {
+    height: 268px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.your {
+    color: #FCA311;
+}
+
+.biz {
+    color: red;
+}
+
+.left {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.middle1 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.middle2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.right {
+    font-size: 14;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14213D;
+    height: 56px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 109px;
+    height: 28px;
+}
+
+.link1 {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.footer-content {
+    margin-top: -10px;
+}
+
+.fab {
+    font-size: 2em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.getapp {
+    display: flex;
+}
+
+.playstore {
+    display: inline-block;
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+.ios {
+    display: inline-block;
+}
