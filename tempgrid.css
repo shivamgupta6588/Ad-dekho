@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+.wbox{
+	display: grid;
+	grid-template-rows: 30% 70%;  
+	width: 233px;
+	height: 850px;
+	grid-row-gap: 0.3em;
+	font-family: Poppins; 
+	font-style: normal;
+	box-sizing: border-box;
+
+}
+
+.iconcontainer
+{
+	display: flex;
+	top: 55%;
+	height: min-content;	
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.8em;
+
+
+}
+.textcontainer{
+	display: flex;
+	margin: 0em 0.5em;
+	box-sizing: border-box;
+	padding: 0em;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#textc{
+	justify-content: center;
+	text-align:  center;
+	padding:0px;
+	font-size: 0.7rem;	
+	color: #140D4F;
+	letter-spacing: 0em;
+	/* width: 30px; */
+
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	/* grid-template-columns: repeat(auto-fill, minmax(11em, 1fr)); */
+	background-color: #E5EDF2;
+	grid-gap: 5em;
+	font-family: Poppins;
+    margin-top: 5em;
+	margin-left: 1em;
+	
+}
+
+.grid-item{ 
+	background-color: #fff;
+	position: relative;
+	height: 162px;
+	width: 219px;
+    background: #FFFFFF;
+    border: 0.718913px solid #BBBBBB;
+    box-sizing: border-box;
+    grid-row: auto / span 4;
+    /* margin-bottom: 2em; */
+}
+
+.photo{
+	position: absolute;
+	border-radius: 50%;
+	width: 80px;
+    height: 80px;
+    top: -28%;
+    left: 32%;
+}
+
+#name{
+	/* position: absolute; */
+    left: 32.41%;
+	right: 32.41%;
+	top: 20%;
+	bottom: 58.82%;
+    font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12.1186px;
+    color: #140D4F;
+}
+
+.name{
+	display: flex;
+	justify-content: center;
+	margin-top: 2.4em;
+	/* width: 233px; */
+}
+#nameid{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12.1186px;
+    color: #140D4F;
+
+}
+
+
+.industry{
+	display: flex;
+	justify-content: center;
+    margin-top: 1em;
+}
+#indus{
+	background: #E46C5A;
+    border-radius: 8.02295px;
+	justify-content: center;
+	padding:1px;
+    color: #fff;
+    width: 106px;	
+    height: 17px; 
+	text-align: center;
+    font-size: 10px;
+}
+
+
+.connect{
+	display: block;
+	position: absolute;
+	background-color: #233A6C;
+	color: #fff;
+	height: 20.77px;
+	width: 219px;
+	text-align: center;
+	font-family: Poppins;
+	border: none;
+	left: 0%;
+    right: 0%;
+    top: 86.63%;
+    bottom: 0.53%;
+	
+}
+
+
+

@@ -11,6 +11,14 @@
     <!-- for side panel -->
 	<link rel="stylesheet" href="adDekho.css">
 
+    <!-- for grids -->
+	<link rel="stylesheet" href="tempgrid.css">
+
+    <!-- for pnk box -->
+	<link rel="stylesheet" href="pinkbox.css">
+    <!-- for blue box -->
+    <link rel="stylesheet" href="blue.css">
+
 
 
     <!-- added footer -->
@@ -24,7 +32,7 @@
 
 
 </head>
-<body>
+<header id="headerset">
     <ul id="nav">
         <li><img src="./images/logo.svg"></li>
         <li>
@@ -51,8 +59,7 @@
         <li class="user" style="margin-left: 25px;"><i class="far fa-user"></i><li>
         <li><i class="fas fa-chevron-down"></i></li>
    </ul>
-
-
+</header>
 <section id="lower-header">
 <ul id="lower">
     <li><a href="#" >Products</a> </li>
@@ -64,16 +71,17 @@
 </ul>
 </section>
       
-<img id="backimage" src="./images/social-media.png" >
-<div id="mainbody" >
-    <div class = "wrapper-box" style="margin-left: 25px;" >
+<section><img id="backimage" src="./images/social-media.png" ></section>
+<section id="mainsection">
+<div id="mainbody"  style="display: flex;" >
+    <div class = "wrapper-box" style="margin-left: 25px;  " >
 
         <div class = "box1">
             <p id = "publisher"> OUR PUBLISHERS </p>
             <p id = "num"> 402 </p>
             <p id = "influencers"> Total Influencers &nbsp; &nbsp; 160</p>
             <p id = "brands"> Total Brand/Merchants &nbsp; &nbsp; 242</p>
-            <p id = "date"> <img src = "./images/verify.jpg" > Verified On: 01/06/2021, (Tue) </p>
+            <!-- <p id = "date"> <img src = "./images/verify.jpg" > Verified On: 01/06/2021, (Tue) </p> -->
         </div>
 
         <div class = "box2" >
@@ -149,27 +157,322 @@
         </div>
 
     </div>
+    
+
+
+    <!-- <grid system> -->
+        <div style="margin-left: 10px ;"  class="wbox">
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div>
+
+            <div class="grid-item">
+                <img class ="photo" src="./images/img1.png">
+                
+                <div class = "name"><span id="nameid">Somani Naik</span></div>
+                <div class = "industry"><span id="indus">Fashion/Lifestyle</span></div>
+                <div class="iconcontainer">
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-square" style=" box-sizing: border-box;	justify-content: center;color: blue; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.2K</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-youtube" style="	justify-content: center;color: red; margin: 0;padding: 0;"></i></a>
+                            <span id="textc">1.5M</span>
+                    </div>
+                    <div class="textcontainer">
+                            <a href="#" target="_blank"><i class="fab fa-instagram-square" style="	justify-content: center;color:#c13584 ;margin: 0;padding: 0;"></i></a>
+                            <span id="textc" >652K</span>
+                    </div>
+                </div> 
+                <button type ="button" class = "connect" >CONNECT</button>	
+            </div> 
+      </div> 
+      </div>
     <!-- for down button -->
-<i id="seeall" class="fas fa-angle-double-down"></i>
 </div>
 
+<i id="seeall" class="fas fa-angle-double-down"></i>
+
+</section>
+
+<!-- for pink box -->
+<section class = "block">
+    <!-- <div > -->
+            <img  class="left-block"src = "./images/banner 1.png" alt = "pic"> 
+    <!-- </div> -->
+    <div class = "block-text">
+        <div class="content" >
+        <p id = "line1">What we get you as a social media Influencers</p>
+        <p id = "line2">Get a real exposure and connect with 100s of brands and make millions of followers</p>
+        <ul>
+            <li><b>ZERO Commission Deal</b> - Get Paid directly from Brands</li>
+            <li><b>Long Term Contracts from Multiple Brands</b> - Earn more Grow More with us throughout the year!</li>
+            <li><b>AI/ML based forecasting Algorithms</b> -  Will help you know which posts/reels works better for your profile!</li>
+            <li><b>Freedom for Influencers to choose the Type of AD & Brand</b> - You choose your Ad, your Rates - Your Way!</li>
+        </ul>
+        <p id = "line7">Many more to come.... Stay Tuned!</p>
+        <p align="right">  <button type = "button" class = "button">Join Now</button></p>
+        </div>
+    </div>
+</section>
 
 
+<section style="border: 5px solid yellow;">
+    hello
+</section>
+
+<!-- bluebox -->
+<section class="bluebox">
+           <div class="block2">
+            <p style="font-weight: 600; font-size: 16px; color: #213A8F;">What we get you as a Brand/Marketers/Advertisers</p>
+			<p style="font-weight: 600; font-size: 18px;color: rgba(20, 33, 61, 0.85);">Discover the best influencers for your campaigns with a very easy and effective way</p>
+			<ul style="color: #263238;">
+				<li><b>AI/ML Algorithms based Forecasting - </b> -We know which influencer will gel well with your brand</li>
+				<li><b>Custom Pricing Suits Any Brand, Any Budget & SMEs </b> - We believe in the logic of inclusion, let us help you!</li>
+				<li><b>Cross promote over 1000s of Publishers & Influencers</b> -   Best Rates , Definite Success!</li>
+				<li><b>Dedicated Inventory on preferred Rates</b> - We know you well, let us fix that & get you this premium visibility.</li>
+				<li><b>Dedicated Inventory on preferred Rates</b> - We know you well, let us fix that & get you this premium visibility.</li>
+			</ul>
+            <p align="left">  <button type = "button" class = "button2">Join Now</button></p>
+            </div>
+            <p class="influence"><img  src = "./images/influencers.png" alt = "pic"></p> 
+    
+    
+    </section>
 
 
 
 
 <!-- footer code-->
-<section class="footer" style="position:relative;margin-bottom:0;width: 100%;">
+
+<section class="footer">
     <div class="top">
         <div class="left">
             <h4 class="footer-logo"><span class="your">Yours</span><span class="biz">Biz</span></h4><br>
             <div class="footer-content">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-square"></i>
-                <p>Email: contact.yourbiz@gmail.com</p>
+                <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-square"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-linkedin-square"></i></a>
+                  <a href="mailto:contact.yourbiz@gmail.com" target="_blank"><p>Email:contact.yourbiz@gmail.com</p></a>
                 <div class="getapp">
                     <p>Get Our App <div class="playstore"><svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.954 8.61595L11.911 5.65895L2.36 0.290951C1.727 -0.0510492 1.134 -0.099049 0.614 0.274951L8.954 8.61595ZM12.415 12.078L15.489 10.349C16.089 10.013 16.418 9.53695 16.418 9.00895C16.418 8.48195 16.089 8.00495 15.49 7.66895L12.707 6.10595L9.574 9.23795L12.415 12.078ZM0.0999999 1.00195C0.0359999 1.19895 0 1.41895 0 1.65995V16.365C0 16.746 0.0840001 17.0739 0.236 17.3349L8.333 9.23695L0.0999999 1.00195ZM8.954 9.85695L0.902 17.91C1.056 17.969 1.222 18 1.397 18C1.709 18 2.034 17.908 2.365 17.724L11.62 12.527L8.954 9.85695Z" fill="#E5E5E5" />
@@ -219,6 +522,5 @@
 </section>
 
 <!-- footer ends here -->
-     
- </body>
+</body>
 </html>

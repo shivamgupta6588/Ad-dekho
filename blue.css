@@ -1,0 +1,36 @@
+.bluebox{
+    height: 401px;
+	width: 100%;
+	margin: 0;
+	padding: 3em;
+     box-sizing: border-box;
+    background: rgba(229, 237, 242, 1);
+}
+
+.block2{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    margin: 0%;
+    /* border: 5px solid yellowgreen;    */
+    float: left;
+}
+.button2{
+   border: 2px solid #D00000;
+    box-sizing: border-box;
+    width: 166px;
+    height: 41px;
+    background: rgba(229, 237, 242, 1);
+    font-family: Poppins;
+    color: #14213D;
+    font-weight: 600;
+    font-size: 1em;
+}
+.influence{
+    /* border: 5px solid yellowgreen; */
+    float: right;
+    width: 40%;
+    margin:0em;
+    padding: 0;
+    height: 100%;
+    }
