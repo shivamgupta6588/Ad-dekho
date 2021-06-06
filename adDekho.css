@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+
+body {
+	background-color: #fff; 
+}
+
+.header-1{
+
+}
+
+.header-2{
+
+}
+
+.header-3{
+
+}
+
+.wrapper-box{
+	display: grid;
+	grid-template-rows: 30% 70%;  
+	width: 233px;
+	height: 850px;
+	grid-row-gap: 0.3em;
+	font-family: Poppins; 
+	font-style: normal;
+}
+
+.box1{
+	background-color: #F55D20;
+	z-index: 1;
+	box-shadow: 0px 0px 10.9659px 2.74148px rgba(0, 0, 0, 0.51);
+	border-radius: 4.56914px;
+
+}
+
+#num{ 
+	font-size: 36.43px;
+	font-weight: 600;
+	color: #F0F1F3;
+    padding-left: 75px;
+    padding-top: 22px;
+}
+
+#publisher{
+    position: absolute;
+    font-weight: 500;
+    font-size: 16.4489px;
+    color: #FFFFFF;
+    padding-left: 48px;
+    padding-top: 11px;
+}
+
+#influencers{
+    font-weight: 500;
+    font-size: 12.789px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+
+#brands{
+    font-weight: 500;
+    font-size: 12.789px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+
+#date{
+	position: absolute;
+    font-weight: normal;
+    font-size: 11px;
+    color: #F0F1F3;
+    padding-left: 28px;
+    padding-top: 9px;
+}
+
+.box2{
+    background: #FFFFFF;
+    border: 0.758121px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4.5641px;
+}
+
+.headings {
+	position: absolute;
+    width: 100.1px;
+    height: 26.95px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #233A6C;
+	padding-left: 18px;
+}
+
+.checkboxes-1{
+	padding-top: 60px;
+	padding-left: 18px;
+}
+
+.checkboxes-2{
+	padding-top: 60px;
+	padding-left: 18px;
+}
+
+.checkbox{
+	margin: 1px 0px 8px 0px;
+	color: #595959;
+}
+
