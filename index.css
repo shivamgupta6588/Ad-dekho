@@ -21,8 +21,7 @@ body{
   #nav{
     /* list-style-type: none;
     overflow: visible; */
-    /* background-color:#F0F1F3; */
-    background: #140D4F;
+    background-color:#F0F1F3;
     height: max-content;
     display: flex;
     flex-direction: row;
@@ -38,17 +37,6 @@ body{
       margin: 0;
       max-height: 100%;
   }
-/*   
-  #nav li {
-      float: left;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      
-  } */
-  
-  
-  
 
 
   .search-container{
