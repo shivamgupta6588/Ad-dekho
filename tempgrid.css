@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 .wbox{
 	display: grid;
-	grid-template-rows: 30% 70%;  
-	width: 233px;
-	height: 850px;
-	grid-row-gap: 0.3em;
+	/* grid-template-rows: 30% 70%;   */
+	/* width: 233px; */
+	/* height: 850px; */
+	/* grid-row-gap: 0.3em; */
 	font-family: Poppins; 
 	font-style: normal;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
+	width: 100%;
+	height: 100%;
 
 }
 
@@ -55,33 +57,48 @@
 	grid-gap: 5em;
 	font-family: Poppins;
     margin-top: 5em;
-	margin-left: 1em;
+	/* margin-left: 1em; */
 	
+}
+#grid-line{
+padding: 0;border: 0.432806px solid #BBBBBB; margin-bottom: 0.2em;
 }
 
 .grid-item{ 
-	background-color: #fff;
-	position: relative;
-	height: 162px;
-	width: 219px;
-    background: #FFFFFF;
+	background: #FFFFFF;
     border: 0.718913px solid #BBBBBB;
     box-sizing: border-box;
-    grid-row: auto / span 4;
+	height: min-content;
+	/* position: relative; */
+	/* height: 162px; */
+	/* width: 219px; */
+     padding: 0;
+    /* grid-row: auto / span 4; */
     /* margin-bottom: 2em; */
 }
 
-.photo{
-	position: absolute;
-	border-radius: 50%;
-	width: 80px;
-    height: 80px;
-    top: -28%;
-    left: 32%;
+#photo{
+	display: flex;
+	justify-content: center;
+	margin-top: -3em;	
+	box-sizing: border-box;
+	
+	height: 80px;
+
 }
 
-#name{
-	/* position: absolute; */
+.photo{
+
+	border-radius: 50%;
+	max-height: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+/* #name{
+	position: absolute;
     left: 32.41%;
 	right: 32.41%;
 	top: 20%;
@@ -91,13 +108,12 @@
 	font-weight: 500;
 	font-size: 12.1186px;
     color: #140D4F;
-}
+} */
 
 .name{
 	display: flex;
 	justify-content: center;
-	margin-top: 2.4em;
-	/* width: 233px; */
+	margin-top: 1.4em;
 }
 #nameid{
 	font-family: Poppins;
@@ -107,7 +123,24 @@
     color: #140D4F;
 
 }
-
+#connect
+{
+	display: flex;
+	justify-content: center;
+    /* bottom: 0; */
+	margin: 0;
+	padding: 0;
+	align-self: flex-end;
+}
+.connect{
+	background-color: #233A6C;
+	color: #fff;
+	/* width: 219px; */
+	width: 100%;
+	text-align: center;
+	font-family: Poppins;
+	border: none;	
+}
 
 .industry{
 	display: flex;
@@ -126,22 +159,7 @@
     font-size: 10px;
 }
 
-.connect{
-	display: block;
-	position: absolute;
-	background-color: #233A6C;
-	color: #fff;
-	height: 20.77px;
-	width: 219px;
-	text-align: center;
-	font-family: Poppins;
-	border: none;
-	left: 0%;
-    right: 0%;
-    top: 86.63%;
-    bottom: 0.53%;
-	
-}
+
 
 
 
