@@ -2,8 +2,8 @@
     width: 100%;
 }
 .maincontainer{
-display: flex;
-padding: 0;
+    display: flex;
+    padding: 0;
 	margin: 0;
 	/* margin-top: 0.8em; */
     padding: 0.8em;
