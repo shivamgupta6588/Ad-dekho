@@ -1,22 +1,23 @@
 .bluebox{
-    height: 401px;
 	width: 100%;
 	margin: 0;
-	padding: 3em;
-     box-sizing: border-box;
+	padding: 0em;
+    box-sizing: border-box;
     background: rgba(229, 237, 242, 1);
+    display: flex;
+  
+    align-items: center;
 }
 
 .block2{
     width: 60%;
     height: 100%;
-    padding: 10px;
+    padding: 1em 3em ;
     margin: 0%;
-    /* border: 5px solid yellowgreen;    */
-    float: left;
+    box-sizing: border-box;    
 }
 .button2{
-   border: 2px solid #D00000;
+    border: 2px solid #D00000;
     box-sizing: border-box;
     width: 166px;
     height: 41px;
@@ -25,12 +26,5 @@
     color: #14213D;
     font-weight: 600;
     font-size: 1em;
+    margin-top: 1em;
 }
-.influence{
-    /* border: 5px solid yellowgreen; */
-    float: right;
-    width: 40%;
-    margin:0em;
-    padding: 0;
-    height: 100%;
-    }

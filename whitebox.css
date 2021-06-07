@@ -1,0 +1,34 @@
+.whitebox{
+    width: 100%;
+}
+.maincontainer{
+display: flex;
+padding: 0;
+	margin: 0;
+	/* margin-top: 0.8em; */
+    padding: 0.8em;
+    height: min-content;	
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+.tcontainer{
+    display: flex;
+	margin: 0em 0.5em;
+	box-sizing: border-box;
+	padding: 0em;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    /* border: 5px solid red; */
+
+}
+#imgtext{
+    font-family: Poppins;
+	text-align: center;
+    color: rgba(20, 33, 61, 0.85);
+    font-size: 12px;
+    text-align: center;
+}
