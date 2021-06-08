@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="blue.css">
     <!-- for white box -->
     <link rel="stylesheet" href="whitebox.css">
+    <!-- for modal -->
+    <link rel="stylesheet" href="modal.css">
 
 
 
@@ -31,6 +33,14 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--  -->
+
+    <!-- for external button modal -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script>
+                $(document).ready(function(){
+                  $(".modal").load("modal.html");});
+                </script>
     <!--  -->
 
 
@@ -201,9 +211,18 @@
                             <span id="textc" >652K</span>
                     </div>
                 </div> 
-               <div id="connect"> <button type ="button" class = "connect" >CONNECT</button></div>
+               <div id="connect"> <button type ="button" class="connect" >CONNECT</button></div>
+
+<!--  for loading modal for modal.html -->
+
+               <div id="myModal" class="modal">
+               
+               </div>
+
+<!--  -->
             </div>
             <!-- main -->
+
              <div class="grid-item">
                 <div id="photo"><img class ="photo" src="./images/img2.png"></div>
                 <div class = "name"><span id="nameid">Priyanka Kohli</span></div>
@@ -223,7 +242,7 @@
                             <span id="textc" >802K</span>
                     </div>
                 </div> 
-               <div id="connect"> <button type ="button" class = "connect" >CONNECT</button></div>
+               <div id="connect"> <button type ="button"  class = "connect" >CONNECT</button></div>
             </div>
             <div class="grid-item">
                 <div id="photo"><img class ="photo" src="./images/img3.png"></div>
@@ -583,5 +602,9 @@
 </section>
 
 <!-- footer ends here -->
+
+
+<!-- for js file of  -->
+<script src="modal.js"></script>
 </body>
 </html>
