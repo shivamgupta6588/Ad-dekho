@@ -38,14 +38,23 @@
 	align-items: center;
 	flex-direction: column;
 }
+.textcontainer .fab{
+	font-size: 2.5em;
+}
 
 #textc{
 	justify-content: center;
 	text-align:  center;
 	padding:0px;
-	font-size: 0.7rem;	
+	font-size: 1rem;	
 	color: #140D4F;
 	letter-spacing: 0em;
+
+
+	font-family: Poppins;
+ font-style: normal;
+font-weight: 500;
+
 	/* width: 30px; */
 
 }
@@ -54,7 +63,7 @@
 	grid-template-columns: auto auto auto auto;
 	/* grid-template-columns: repeat(auto-fill, minmax(11em, 1fr)); */
 	background-color: #E5EDF2;
-	grid-gap: 5em;
+	grid-gap: 5em 2em;
 	font-family: Poppins;
     margin-top: 5em;
 	/* margin-left: 1em; */
@@ -69,12 +78,10 @@ padding: 0;border: 0.432806px solid #BBBBBB; margin-bottom: 0.2em;
     border: 0.718913px solid #BBBBBB;
     box-sizing: border-box;
 	height: min-content;
-	/* position: relative; */
-	/* height: 162px; */
-	/* width: 219px; */
+	min-width: 219px;
+	
      padding: 0;
-    /* grid-row: auto / span 4; */
-    /* margin-bottom: 2em; */
+
 }
 
 #photo{
@@ -82,7 +89,7 @@ padding: 0;border: 0.432806px solid #BBBBBB; margin-bottom: 0.2em;
 	justify-content: center;
 	margin-top: -3em;	
 	box-sizing: border-box;
-	height: 80px;
+	height: 110px;
 
 }
 
