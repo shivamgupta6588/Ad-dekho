@@ -20,7 +20,81 @@
     
     
         <section class="modal-body2">
-          <p>Body</p>
+          
+            <form id="form1" style="display: flex; flex-direction:column; padding:0em 7em;">
+                <div id="main-hed" style="margin-top: 2.5em;">Brand/Agency/Company Registration</div><br>
+                   <div><label>NAME:</label><br><input type="name" required></div>
+                   <div><label>Mobile Number:</label><input type="text" required><br></div>
+                   <div><label>Email:</label><input type="email" required><br></div>
+                   <div><label>Company type</label>
+                    <select name="cars" id="cars">
+                    <option value="Brand">Brand</option>
+                    <option value="Agency">Agency</option>
+                    <option value="Company">Company</option>
+                  </select><br>
+                </div>
+                 <div> <label>Company NAME:</label><input type="name" required><br></div>
+                  <div><label>Company Website:</label><input type="text" required><br></div>
+
+                   <div id="btn-bx" style="padding-top: 1em;">
+                       <button id="btn-next" type="button" style="cursor: pointer;">NEXT</button>
+                   </div>
+            </form>
+            <form id="form2" style="display: flex; flex-direction:column; padding:0em 7em;">
+                
+                <div id="main-hed" style="margin-top: 2.5em;">Brand/Agency/Company Registration</div><br>
+                <div><label>Please enter the OTP sent to your mobile no-9599306278</label><br>
+                    <input type="text" required><br>
+                    <a href="#" style=" padding-top:0.4em;text-decoration: none;color: #677EB0;float:right; font-style: normal;font-weight: normal;font-size: 12px;line-height: 16px;">Resend OTP</a><br>
+                </div>
+                <div><label>Please enter the OTP sent to your mail id-contact.com</label><br>
+                    <input type="email" required><br>
+                    <a href="#" style=" padding-top:0.4em;text-decoration: none;color: #677EB0;float:right; font-style: normal;font-weight: normal;font-size: 12px;line-height: 16px;">Resend OTP</a><br>
+                </div>
+
+                
+                
+                <div id="btn-bx" style="text-align:center;bottom:20px; margin-top:19em;
+                padding:0em 7em ;width:100%;left:0;">
+                       <button id="btn-verify" type="button" style="cursor: pointer;">Verify</button>
+                </div>
+                   
+            </form>
+            <div style="position :absolute;text-align:center;bottom:20px; display: flex;justify-content: center;
+            padding:0em 7em ;width:100%;left:0;">
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+            <script>
+
+                var Form1=document.getElementById("form1");
+                var Form2=document.getElementById("form2");
+
+                var Next=document.getElementById("btn-next");
+                var Verify=document.getElementById("btn-verify");
+
+                var Step=document.getElementsByClassName("step");
+
+                Next.onclick=function()
+                            {
+                                Form1.style.left="-843px";
+                                Form2.style.left="0px";
+                                Step[0].style.background="#2B9348"; 
+                                // Step[0].className.add(" .active");
+                            }
+                 Verify.onclick=function()
+                            {  
+                                Step[1].style.background="#2B9348";
+                                Step[0].style.background="#bbbbbb";
+
+                            }              
+
+
+
+ 
+
+            </script>
+           
         </section>
         
       </section>
