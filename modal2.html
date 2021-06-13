@@ -23,18 +23,18 @@
           
             <form id="form1" style="display: flex; flex-direction:column; padding:0em 7em;">
                 <div id="main-hed" style="margin-top: 2.5em;">Brand/Agency/Company Registration</div><br>
-                   <div><label>NAME:</label><br><input type="name" required></div>
-                   <div><label>Mobile Number:</label><input type="text" required><br></div>
-                   <div><label>Email:</label><input type="email" required><br></div>
-                   <div><label>Company type</label>
-                    <select name="cars" id="cars">
+                   <div><label>NAME*</label><br><input type="name" required></div>
+                   <div><label>Mobile No*:</label><input type="text" required><br></div>
+                   <div><label>Email Id*</label><input type="email" required><br></div>
+                   <div><label>Company Type*</label>
+                    <select name="" id="">
                     <option value="Brand">Brand</option>
                     <option value="Agency">Agency</option>
                     <option value="Company">Company</option>
                   </select><br>
                 </div>
-                 <div> <label>Company NAME:</label><input type="name" required><br></div>
-                  <div><label>Company Website:</label><input type="text" required><br></div>
+                 <div> <label>Company Name*</label><input type="name" required><br></div>
+                  <div><label>Company Website*</label><input type="text" required><br></div>
 
                    <div id="btn-bx" style="padding-top: 1em;">
                        <button id="btn-next" type="button" style="cursor: pointer;">NEXT</button>
@@ -74,18 +74,28 @@
                 var Verify=document.getElementById("btn-verify");
 
                 var Step=document.getElementsByClassName("step");
+                Step[0].style.background="#2B9348"; 
+                
+                var mod=document.getElementsByClassName("modal2");
 
                 Next.onclick=function()
                             {
                                 Form1.style.left="-843px";
                                 Form2.style.left="0px";
-                                Step[0].style.background="#2B9348"; 
-                                // Step[0].className.add(" .active");
+                            
+                                Step[1].style.background="#2B9348";
+                                Step[0].style.background="#bbbbbb";
+    
+            
+                                $('.modal2').scrollTop(0);
+
+                                
                             }
                  Verify.onclick=function()
                             {  
-                                Step[1].style.background="#2B9348";
-                                Step[0].style.background="#bbbbbb";
+                               // nothing to do as of now 
+                            //    $('.modal2').scrollTop(0);
+
 
                             }              
 
