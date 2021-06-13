@@ -15,12 +15,16 @@
   
 /* Modal Content */
 .modal-content {
-  /* position: relative; */
-  background-color: #fefefe;
+  position: relative;
+  background-color: #FFFFFF;    
   margin: 0 auto;
   padding: 0;
   border: 1px solid #888;
-  width: 844.28px;;
+  
+  height: max-content;
+
+
+  width: 843px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -44,17 +48,90 @@
   color: white;
   flex-direction: column;
   height: 451.7px;
+
 }
 .modal-body {
+  
   margin:0;
   padding: 2px 16px;
+  position: relative;
+  overflow: hidden;  
+ 
+  height: 1100px;
+ /* max-height:  1000px; */
+ /* max-height: fit-content; */
 }
 
-/* .modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-} */
+.modal-body form{
+  width: 100%;
+  position: absolute;   
+  left: 0px;
+  transition: 0.2s;
+  height: min-content;
+}
+
+.modal-body #form01 div{
+  margin-bottom: 2em;
+
+}
+.modal-body #form02 div{
+  margin-bottom: 4em;
+}
+
+.modal-body #form03 div{
+  /* margin-bottom: 1em;
+  padding: 0;
+  margin: auto 0; */
+ /* height:  1000px; */
+
+}
+
+
+.modal-body label{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #595959;
+
+}
+
+
+.modal-body input ,.modal-body select{
+  width: 100%;
+  text-align: left;
+  height: 43px;
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+  /*  */
+ 
+}
+
+
+.modal-body #form02
+{
+  left: 843px;
+}
+.modal-body #form03
+{
+  left: 843px;
+}
+
+.modal-body .step2{
+    height: 15px;
+    width: 15px;
+    /* margin: 0 4px; */
+    margin:0em 0.7em;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 1;
+}
+
+
 
 .close1:hover,
 .close1:focus {
@@ -74,7 +151,7 @@
   to {top:0; opacity:1}
 }
 /* The Close Button */
-.close1 {
+.modal-body .close1 {
   color: white;
   opacity: 1;
   margin: 0;
@@ -88,13 +165,367 @@
    flex-direction: column;
    margin-top:1.1em; 
    margin-left: 0.5em;
-
-   /* padding: 3em; */
-/* for circle image blue */
    background-color: #14213D;
    border-radius: 100%;
-   width: 354.99px;   /*units to be changed after final positioning in main file*/
+   width: 354.99px;   
    height: 355.71px;
- 
    box-shadow: 0px 0px 31.9358px 19.1615px rgba(0, 0, 0, 0.25);
  }
+
+ #btn-bx2{
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+#btn-bx2 button{
+ 
+  min-width: 185px;
+  padding-top: 10px auto;
+  height: 51px;
+  background: #2B9348;
+  border: 1.08329px solid #BBBBBB;
+  box-sizing: border-box;
+  /* font */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+#main-hed2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  /* identical to box height */
+  padding:0.5em 0em;
+  color: #595959;
+  display: flex;
+  justify-content: space-between;
+
+}
+#fill-det3{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #595959;
+
+border-bottom: 1px solid rgba(89, 89, 89, 0.5);
+width: max-content;
+color: #595959;
+}
+
+
+
+#fill-det{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+border-bottom: 1px solid rgba(89, 89, 89, 0.5);
+width: max-content;
+color: #595959;
+margin-bottom: 1em;
+}
+
+
+
+
+/*  alll for modal  */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+
+.flex-container-one {
+  display: flex;
+  justify-content:space-between;
+}
+
+.flex-container-one .item-one div{
+    padding: 0;
+    margin: 0;
+    margin-top: 0.2em;
+   
+    display: flex;
+   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #595959;
+}
+
+
+.flex-container-one .main-her{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #595959;
+}
+
+.item-one .checkbox{  
+    margin-left:  1.3em;
+}
+
+.item-one input{
+	width: 1em;
+	height: 1em;
+	background: #FFFFFF;
+	border: 0.981725px solid #595959;
+	box-sizing: border-box;
+}
+
+
+/* item one ends here */
+.item-two #dropdown,.item-two #text-box{
+	
+  height: 36px;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: rgba(89, 89, 89, 0.5);
+}
+/*  */
+.item-three > #text-box{
+  height: 36px;
+  width: 92px;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: rgba(89, 89, 89, 0.5);
+}
+
+
+.item-three > #dropdown{
+	width: 121px;;
+  height: 36px;
+
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 22px;
+            color: #595959;
+            background: #FFFFFF;
+            border: 1px solid #BBBBBB;
+            box-sizing: border-box;
+}
+/* fourth input */
+.item-four input{
+  height: 36px;
+  width: 111px;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: rgba(89, 89, 89, 0.5);
+}
+
+/* budget  */
+.overall-budget p{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: rgba(89, 89, 89, 0.8);
+float:right;
+margin-top: 0.5em;
+}
+
+
+
+.overall-budget p input{
+  background: #FFFFFF;
+  width: 344px;
+  height: 36px;
+  border: 1px solid #BBBBBB;
+   box-sizing: border-box;
+  padding: 0 ;
+  
+}
+
+
+
+.flex-container-two{
+	display: flex; 
+	flex-direction: column;
+  height: fit-content;
+}
+.date-box p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 14px;
+  color: #595959; }
+
+.date-box input{
+  width: 230px;
+  height:40px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	box-sizing: border-box;
+	font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+.date-box p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 14px;
+  color: #595959;
+
+}
+
+
+.description{
+    background-attachment: local;
+    background-image: linear-gradient(to right, white 10px, transparent 10px),
+        linear-gradient(to left, white 10px, transparent 10px),
+        repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    line-height: 1.93em;
+    padding: 0.5em 0.625em;
+    border: none;
+    resize: none;
+    width: 100%;
+  }
+
+/* .tags input {
+
+} */
+
+.title {
+    font-size: 1em;
+    color: #595959;
+}
+
+#drop-zone {
+    /* height: 8em;
+    width: 12.81em; */
+
+   margin-top: 2em;
+    width: 205px;
+    height: 120px;
+    border: none;
+    background: rgba(196, 196, 196, 0.14);
+    margin-left: 20.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.file-upload{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.file-upload .file{
+  margin-left: 20.5em;
+   height:fit-content;
+   padding:0;
+  width: 205px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  border: none;
+  
+
+
+  
+}
+.file-upload input[type=file]::file-selector-button {
+  width: 86px;
+	height: 19px;
+	background: rgba(184, 184, 184, 0.45);
+	border: none;	
+  padding: 0;
+	font-family: Poppins;
+}
+
+.submit{
+	width: 19.43em;
+	height: 3.18em;
+	background: #2B9348;
+	border: none;
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 1.12em;
+	color: #FFFFFF;
+	margin-top: 3em;
+	margin-left: 16em;
+
+}
+
+
+
+#sss{
+  position :absolute;
+  text-align:center;
+  
+  /* margin: auto 0  0 0;  */
+  bottom: 190px;
+  /* display: flex;
+  justify-content: center; */
+  padding:0em 7em ;
+  width:100%;
+  left:0;
+ 
+}
