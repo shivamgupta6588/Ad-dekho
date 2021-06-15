@@ -79,7 +79,7 @@ padding: 0;border: 0.432806px solid #BBBBBB; margin-bottom: 0.2em;
     box-sizing: border-box;
 	height: min-content;
 	min-width: 219px;
-	
+	border-radius: 15px 0px;
      padding: 0;
 
 }
@@ -137,6 +137,7 @@ padding: 0;border: 0.432806px solid #BBBBBB; margin-bottom: 0.2em;
 	margin: 0;
 	padding: 0;
 	align-self: flex-end;
+	
 }
 .connect{
 	background-color: #233A6C;
@@ -146,6 +147,7 @@ padding: 0;border: 0.432806px solid #BBBBBB; margin-bottom: 0.2em;
 	text-align: center;
 	font-family: Poppins;
 	border: none;	
+	border-radius: 0px 0px 12px 0px;
 }
 
 .industry{
