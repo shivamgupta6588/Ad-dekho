@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+.sidebar {
+  	position: absolute;
+	width: 7.375rem;
+	height: 51.125rem;
+	left: 8.5%;
+	top: 23%;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 2px;
+
+}
+
+.sidebar p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.875rem;
+	color: #595959;
+	position: absolute;
+	
+}
+
+.sidebar a{
+	text-decoration: none;
+	position: absolute;
+}
+
